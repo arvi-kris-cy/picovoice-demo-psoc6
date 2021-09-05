@@ -88,13 +88,13 @@ int main(void) {
 
     status = pv_audio_rec_init();
     if (status != PV_STATUS_SUCCESS) {
-        printf("Audio init failed with '%s'", pv_status_to_string(status));
+        printf("Audio init failed with '%s'\r\n", pv_status_to_string(status));
         error_handler();
     }
 
     status = pv_audio_rec_start();
     if (status != PV_STATUS_SUCCESS) {
-        printf("Recording audio failed with '%s'", pv_status_to_string(status));
+        printf("Recording audio failed with '%s'\r\n", pv_status_to_string(status));
         error_handler();
     }
 
@@ -113,7 +113,7 @@ int main(void) {
             inference_callback,
             &handle);
     if (status != PV_STATUS_SUCCESS) {
-        printf("Picovoice init failed with '%s'", pv_status_to_string(status));
+        printf("Picovoice init failed with '%s'\r\n", pv_status_to_string(status));
         error_handler();
     }
 
@@ -122,7 +122,7 @@ int main(void) {
         if (buffer) {
             const pv_status_t status = pv_picovoice_process(handle, buffer);
             if (status != PV_STATUS_SUCCESS) {
-                printf("Picovoice process failed with '%s'", pv_status_to_string(status));
+                printf("Picovoice process failed with '%s'\r\n", pv_status_to_string(status));
                 error_handler();
             }
         }
