@@ -12,7 +12,7 @@ This package contains a demo project for the CY8CKIT-062S2-43012 kit using Picov
 
 ## Supported toolchains (make variable 'TOOLCHAIN')
 
-- GNU Arm� embedded compiler v9.3.1 (`GCC_ARM`) - Default value of `TOOLCHAIN`
+- GNU Arm&reg; embedded compiler v9.3.1 (`GCC_ARM`) - Default value of `TOOLCHAIN`
 - Arm&reg; compiler v6.13 (`ARM`)
 - IAR C/C++ compiler v8.42.2 (`IAR`)
 
