@@ -95,7 +95,7 @@ Various CLI tools include a `-h` option that prints help information to the term
 
 1. Connect the board to your PC using the provided USB cable through the USB connector.
 
-2. rogram the board using one of the following:
+2. Program the board using one of the following:
 
    <details><summary><b>Using Eclipse IDE for ModusToolbox</b></summary>
 
